@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="SuiteFullTest" verbose="1" >
+  <test name="TestWithChrome" >
+  	<parameter name="browser"  value="Chrome"/>
+  	<classes>
+		<class name = "runners.testRunner"/>
+    </classes>
+  </test>
+<!--   <test name="TestWithFireFox" >
+  	<parameter name="browser"  value="FireFox"/>
+  	<classes>
+       <class name="testWindowTab.NewTab" />
+    </classes>
+  </test> -->
+</suite>
+
